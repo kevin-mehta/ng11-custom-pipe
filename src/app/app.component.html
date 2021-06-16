@@ -12,7 +12,7 @@
 />
 <div
   class="panel panel-default col-xs-12 col-sm-11"
-  *ngFor="let lock of locked | LockFilter: query"
+  *ngFor="let lock of locked | SearchPipe: query"
 >
   <input
     type="checkbox"

@@ -1,7 +1,7 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'LockFilter'
+  name: 'SearchPipe'
 })
 export class SearchPipe implements PipeTransform {
   transform(value: any, args?: any): any {
